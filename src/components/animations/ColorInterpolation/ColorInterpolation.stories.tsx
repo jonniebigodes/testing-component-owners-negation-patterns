@@ -15,16 +15,16 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+/* export const Default: Story = {};
 
 export const SlowerSweep: Story = {
   args: {
     durationMs: 6000,
   },
-};
+}; */
 
-/* export const Unstable: Story = {
+export const Unstable: Story = {
   args: {
     durationMs: Math.floor(Math.random() * 12000) + 800,
   },
-}; */
+};

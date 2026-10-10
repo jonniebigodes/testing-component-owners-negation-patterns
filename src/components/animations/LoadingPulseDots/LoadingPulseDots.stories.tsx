@@ -15,7 +15,7 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+/* export const Default: Story = {};
 
 export const Compact: Story = {
   args: {
@@ -23,9 +23,9 @@ export const Compact: Story = {
     cycleMs: 1000,
     color: "#0d9488",
   },
-};
+}; */
 
-/* export const Unstable: Story = {
+export const Unstable: Story = {
   args: {
     dotCount: Math.floor(Math.random() * 10) + 3,
     cycleMs: Math.floor(Math.random() * 4000) + 400,
@@ -33,4 +33,4 @@ export const Compact: Story = {
       .toString(16)
       .padStart(6, "0")}`,
   },
-}; */
+};

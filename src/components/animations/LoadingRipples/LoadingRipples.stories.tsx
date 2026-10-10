@@ -15,7 +15,7 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+/* export const Default: Story = {};
 
 export const WarmTone: Story = {
   args: {
@@ -23,9 +23,9 @@ export const WarmTone: Story = {
     ringCount: 4,
     cycleMs: 3000,
   },
-};
+}; */
 
-/* export const Unstable: Story = {
+export const Unstable: Story = {
   args: {
     ringCount: Math.floor(Math.random() * 6) + 2,
     cycleMs: Math.floor(Math.random() * 5000) + 800,
@@ -33,4 +33,4 @@ export const WarmTone: Story = {
       .toString(16)
       .padStart(6, "0")}`,
   },
-}; */
+};
