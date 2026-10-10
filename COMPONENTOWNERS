@@ -11,7 +11,7 @@
 # 🎨 Design System Core — Forms & Date/Time
 ##################################################
 
-Components/Form/*                             carlos.alberto.fulgrim@gmail.com
+Components/Form/                              carlos.alberto.fulgrim@gmail.com
 Components/Form/Input/*                       carlos.alberto.fulgrim@gmail.com joaocontadesenvolvimento@gmail.com
 Components/Combobox/*                         carlos.alberto.fulgrim@gmail.com
 Components/Calendar/*                         carlos.alberto.fulgrim@gmail.com
