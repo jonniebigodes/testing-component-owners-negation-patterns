@@ -15,14 +15,14 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+/* export const Default: Story = {}; */
 
-export const LongLabel: Story = {
+/* export const LongLabel: Story = {
   args: {
     label: "Synchronizing",
     cycleMs: 3000,
   },
-};
+}; */
 
 const UNSTABLE_LABELS = [
   "Loading",
@@ -32,11 +32,11 @@ const UNSTABLE_LABELS = [
   "Stand by",
 ];
 
-/* export const Unstable: Story = {
+export const Unstable: Story = {
   args: {
     label:
       UNSTABLE_LABELS[Math.floor(Math.random() * UNSTABLE_LABELS.length)] ??
       "Loading",
     cycleMs: Math.floor(Math.random() * 5000) + 600,
   },
-}; */
+};

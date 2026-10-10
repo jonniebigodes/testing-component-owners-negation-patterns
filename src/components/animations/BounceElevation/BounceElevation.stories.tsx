@@ -15,18 +15,18 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+/* export const Default: Story = {};
 
 export const HigherLift: Story = {
   args: {
     liftPx: 52,
     cycleMs: 1800,
   },
-};
+}; */
 
-/* export const Unstable: Story = {
+export const Unstable: Story = {
   args: {
     liftPx: Math.floor(Math.random() * 60) + 20,
     cycleMs: Math.floor(Math.random() * 3500) + 800,
   },
-}; */
+};

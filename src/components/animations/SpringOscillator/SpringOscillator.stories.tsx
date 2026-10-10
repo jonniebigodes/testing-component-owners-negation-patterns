@@ -15,16 +15,16 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+/* export const Default: Story = {};
 
 export const WiderSpan: Story = {
   args: {
     spanPx: 80,
   },
-};
+}; */
 
-/* export const Unstable: Story = {
+export const Unstable: Story = {
   args: {
     spanPx: Math.floor(Math.random() * 100) + 24,
   },
-}; */
+};

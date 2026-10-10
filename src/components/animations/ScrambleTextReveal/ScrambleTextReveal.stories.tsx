@@ -15,7 +15,7 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+/* export const Default: Story = {};
 
 export const StatusLabels: Story = {
   args: {
@@ -23,9 +23,9 @@ export const StatusLabels: Story = {
     wordHoldMs: 2800,
     scrambleTickMs: 40,
   },
-};
+}; */
 
-/* const SCRAMBLE_POOL = [
+const SCRAMBLE_POOL = [
   "Alpha",
   "Beta",
   "Gamma",
@@ -46,4 +46,4 @@ export const Unstable: Story = {
     wordHoldMs: Math.floor(Math.random() * 4000) + 800,
     scrambleTickMs: Math.floor(Math.random() * 80) + 20,
   },
-}; */
+};

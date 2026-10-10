@@ -15,7 +15,7 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Horizontal: Story = {
+/* export const Horizontal: Story = {
   args: {
     axis: "horizontal",
   },
@@ -26,11 +26,11 @@ export const Vertical: Story = {
     axis: "vertical",
     durationMs: 4200,
   },
-};
+}; */
 
-/* export const Unstable: Story = {
+export const Unstable: Story = {
   args: {
     axis: Math.random() < 0.5 ? "horizontal" : "vertical",
     durationMs: Math.floor(Math.random() * 9000) + 1200,
   },
-}; */
+};
